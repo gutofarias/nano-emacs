@@ -42,10 +42,10 @@
 (setq pop-up-windows nil)
 
 ;; User name
-(setq user-full-name "Nicolas P. Rougier")
+;; (setq user-full-name "João Gutemberg Farias")
 
 ;; User mail address
-(setq user-mail-address "Nicolas.Rougier@inria.fr")
+;; (setq user-mail-address "joao.gutemberg.farias@gmail.com")
       
 ;; No empty line indicators
 (setq indicate-empty-lines nil)
@@ -53,11 +53,11 @@
 ;; No cursor in inactive windows
 (setq cursor-in-non-selected-windows nil)
 
-;; Text mode is initial mode
-(setq initial-major-mode 'text-mode)
+;; ;; Text mode is initial mode
+;; (setq initial-major-mode 'text-mode)
 
-;; Text mode is default major mode
-(setq default-major-mode 'text-mode)
+;; ;; Text mode is default major mode
+;; (setq default-major-mode 'text-mode)
 
 ;; Moderate font lock
 ;; (setq font-lock-maximum-decoration nil)
@@ -111,10 +111,10 @@
 ;; Mac specific
 (when (eq system-type 'darwin)
   (setq ns-use-native-fullscreen t
-        mac-option-key-is-meta nil
-        mac-command-key-is-meta t
-        mac-command-modifier 'meta
-        mac-option-modifier nil
+        ;; mac-option-key-is-meta nil
+        ;; mac-command-key-is-meta t
+        ;; mac-command-modifier 'meta
+        ;; mac-option-modifier nil
         mac-use-title-bar nil))
 
 ;; Make sure clipboard works properly in tty mode on OSX
@@ -131,13 +131,13 @@
     (setq interprogram-paste-function 'copy-from-osx))
 
 ;; y/n for  answering yes/no questions
-(fset 'yes-or-no-p 'y-or-n-p)
+;; (fset 'yes-or-no-p 'y-or-n-p)
 
 ;; No tabs
-(setq-default indent-tabs-mode nil)
+;; (setq-default indent-tabs-mode nil)
 
 ;; Tab.space equivalence
-(setq-default tab-width 4)
+;; (setq-default tab-width 4)
 
 ;; Size of temporary buffers
 (temp-buffer-resize-mode)
