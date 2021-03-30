@@ -60,7 +60,8 @@
 (setq default-major-mode 'text-mode)
 
 ;; Moderate font lock
-(setq font-lock-maximum-decoration nil)
+;; (setq font-lock-maximum-decoration nil)
+(setq font-lock-maximum-decoration t)
 
 ;; No limit on font lock
 (setq font-lock-maximum-size nil)
