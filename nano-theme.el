@@ -60,7 +60,7 @@
 
   ;; Structural
   (set-face 'bold                                     'nano-face-strong)
-  (set-face 'italic                                    'nano-face-faded)
+  ;; (set-face 'italic                                    'nano-face-faded)
   (set-face 'bold-italic                              'nano-face-strong)
   (set-face 'region                                   'nano-face-subtle)
   (set-face 'highlight                                'nano-face-subtle)
@@ -756,7 +756,7 @@ function is a convenience wrapper used by `describe-package-1'."
   ;; (set-face 'font-lock-constant-face                 'nano-face-salient)
   ;; (set-face 'font-lock-warning-face                   'nano-face-popout)
   ;; (set-face 'font-lock-function-name-face             'nano-face-strong)
-  ;; (set-face 'font-lock-variable-name-face             'nano-face-strong)
+  (set-face 'font-lock-variable-name-face             'nano-face-strong)
   ;; (set-face 'font-lock-builtin-face                  'nano-face-salient)
   ;; (set-face 'font-lock-type-face                     'nano-face-salient)
   ;; (set-face 'font-lock-keyword-face                  'nano-face-salient)
