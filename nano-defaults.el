@@ -24,10 +24,10 @@
 (setq inhibit-startup-echo-area-message t)
 
 ;; No message in scratch buffer
-(setq initial-scratch-message nil)
+;; (setq initial-scratch-message nil)
 
 ;; Initial buffer 
-(setq initial-buffer-choice nil)
+;; (setq initial-buffer-choice nil)
 
 ;; No frame title
 (setq frame-title-format nil)
